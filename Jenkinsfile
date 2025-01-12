@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage("Zip the file"){
             steps{
+                sh 'rm -rf *.zip || echo ""'  // This is to  delete all the previous zip code project
                 sh 'zip ansible-${BUILD_ID}.zip * --exclude Jenkinsfile'
                 //sh 'ls -l'
             }
