@@ -35,4 +35,4 @@
      Go ahead and write a playbook to automate this manual process.
      
 7- meeting with monitoring team to understand the process and set up automations for it.
-     d
+     
