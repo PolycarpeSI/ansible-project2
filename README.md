@@ -14,7 +14,7 @@
      we need to automate this task to run every month automatically.
      4- we need jenkins to execute the playbook instead of someone login into the ansible server and execute those playbook
      How can we make that happen?
-     
+
 5- Each time a qa server is deployed using terraform, we need to configure the server. it is done thru
      a shell script and you need to change it to  use a playbook
      go ahead and write the playbook  for that. below is the script used.
@@ -35,4 +35,4 @@
      Go ahead and write a playbook to automate this manual process.
      
 7- meeting with monitoring team to understand the process and set up automations for it.
-     
+     d
