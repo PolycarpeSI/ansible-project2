@@ -16,7 +16,7 @@ pipeline{
             }
         }
 
-        stage("Upload artifact to JFrog"){
+        /*stage("Upload artifact to JFrog"){
             steps{
                 sh 'curl -uadmin:APBZrJk8pn85wcNmx47z1AoGCFp -T \
                 ansible-{BUILD_ID}.zip \
@@ -30,7 +30,7 @@ pipeline{
                     echo "========Failed upload========"
                 }
             }
-        }
+        }*/
     }
     
 }
